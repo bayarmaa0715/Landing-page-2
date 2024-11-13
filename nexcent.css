@@ -27,12 +27,18 @@ nav {
   cursor: pointer;
 }
 
+.menu p {
+  transition: all 0.7s linear;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
 .menu p:hover {
   color: white;
   background-color: black;
   padding: 3px 10px;
   border-radius: 3px;
-  transition: all 0.7s ease-in-out;
+  /* transition: all 2s ease-in-out; */
+  /* transition: transform 250ms linear; */
 }
 
 .login-signup button {
